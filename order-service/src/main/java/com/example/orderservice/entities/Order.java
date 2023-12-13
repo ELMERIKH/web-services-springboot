@@ -25,7 +25,7 @@ public class Order {
     private Date createdAt;
     private OrderStatus status;
     private Long customerId;
-    @Transient //parce que Customer nest pas un entite(on demande de ne pas le prendre en consideration)
+    @Transient
     private Customer customer;
     @OneToMany(mappedBy = "order")
     private List<ProductItem> productItems;

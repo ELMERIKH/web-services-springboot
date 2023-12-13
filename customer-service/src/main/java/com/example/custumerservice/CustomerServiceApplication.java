@@ -12,10 +12,10 @@ import org.springframework.context.annotation.Bean;
 import java.util.List;
 
 @SpringBootApplication
-public class CustumerServiceApplication {
+public class CustomerServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CustumerServiceApplication.class, args);
+		SpringApplication.run(CustomerServiceApplication.class, args);
 	}
 
 	@Bean
