@@ -46,10 +46,6 @@ Sert de passerelle API pour le routage et le filtrage des demandes.
 Gère l'équilibrage de charge, l'authentification et d'autres préoccupations transversales.
 
 Composants Additionnels :
-Vault :
-
-Utilisé pour le stockage sécurisé et la gestion d'informations sensibles, telles que les clés API, les mots de passe, etc.
-Intégré au service de facturation pour la gestion des secrets.
 
 Frontend Angular :
 
